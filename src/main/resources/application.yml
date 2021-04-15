@@ -10,7 +10,9 @@ spring:
     hibernate:
       ddl-auto: update
 server:
-  port: 8081
+  port: 10001
   tomcat:
     uri-encoding: UTF-8
+  servlet:
+    context-path: /nasb
 
