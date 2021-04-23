@@ -19,7 +19,7 @@ public class ArticleController {
 
     @GetMapping
     @ApiOperation(value = "get all articles",httpMethod = "GET")
-    public BaseResponse<String> article(){
-        return BaseResponse.success("Hello World","szg nmmmdl!!");
+    public BaseResponse<String> articles(){
+        return BaseResponse.success("Hello World","szg nmmmdl!");
     }
 }
