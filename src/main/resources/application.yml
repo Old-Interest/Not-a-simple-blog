@@ -6,6 +6,10 @@ spring:
     url: jdbc:mysql://8.142.38.77:3306/nasb
     username: harutya
     password: harutya210318
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 8.142.38.77:1113
   jpa:
     hibernate:
       ddl-auto: update
@@ -15,4 +19,5 @@ server:
     uri-encoding: UTF-8
   servlet:
     context-path: /nasb
+
 
